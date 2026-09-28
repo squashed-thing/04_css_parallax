@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #444;
+  background: #b68b7b;
+}
+
+.parallax {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.hero {
+  background-image: url("images/clouds.jpg");
+}
+
+.flowers {
+  background-image: url("images/flowers.jpg");
+}
+
+.content {
+  min-height: 60vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 60px;
+  background: #fffaf8;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.75);
+
+  padding: 40px;
+
+  border-radius: 16px;
+
+  backdrop-filter: blur(6px);
+
+  max-width: 500px;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.scene1 {
+  background-image: url("images/bedroom.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene2 {
+  background-image: url("images/guitar_sil.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene12 {
+  background-image: url("images/bedroom.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene3 {
+  background-image: url("images/guitar.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene4 {
+  background-image: url("images/girl_guitar.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Scene 5: She takes the guitar with her
+   IMAGE TO FIND: Person carrying a guitar / walking with a guitar */
+.scene5 {
+  background-image: url("images/carry_guitar.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scene 6: She practices every day
+   IMAGE TO FIND: Person practicing guitar alone in a bedroom or practice room */
+.scene6 {
+  background-image: url("images/practice_guitar.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scene 7: She performs for an audience
+   IMAGE TO FIND: Live guitar performance with audience */
+.scene7 {
+  background-image: url("images/live_guitar.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scene 8: She decides to pursue music
+   IMAGE TO FIND: Musician on stage / concert / guitar performance */
+.scene8 {
+  background-image: url("images/guitar_guitar.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scene 9: She becomes a famous musician
+   IMAGE TO FIND: Successful musician performing on a large stage */
+.scene9 {
+    background-image: url("images/yeah_yeah.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scene 10: Happily ever after
+   IMAGE TO FIND: Warm, peaceful musician/guitar scene, preferably sunset or stage lights */
+.scene10 {
+  background-image: url("images/studio.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
